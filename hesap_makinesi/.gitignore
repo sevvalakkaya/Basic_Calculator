@@ -1,0 +1,49 @@
+
+# =========================
+# Visual Studio / C# Projeleri İçin .gitignore
+# =========================
+
+# Derleme klasörleri
+bin/
+obj/
+**/Debug/
+**/Release/
+
+# Visual Studio IDE dosyaları
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Geçici ve günlük dosyaları
+*.cache
+*.log
+*.pdb
+
+# ReSharper, Rider
+.idea/
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Auto-generated dosyalar (genellikle Designer tarafından oluşturulur)
+*.Designer.cs
+*.g.cs
+*.g.i.cs
+
+# Config dosyası yedekleri
+app.config.*
+web.config.*
+
+# Kaynak kontrol sistemleri (TFS)
+*.vssscc
+*.vspscc
+
+# Windows sistem dosyaları
+Thumbs.db
+Desktop.ini
